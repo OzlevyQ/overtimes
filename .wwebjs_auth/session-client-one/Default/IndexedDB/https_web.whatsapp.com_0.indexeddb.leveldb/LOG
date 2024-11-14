@@ -1,0 +1,42 @@
+2024/11/14-07:04:03.574 7a48 Reusing MANIFEST C:\Users\ozlev\Desktop\NWEF\overtime\overtime2\backend\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/14-07:04:03.575 7a48 Recovering log #891
+2024/11/14-07:04:03.607 7a48 Reusing old log C:\Users\ozlev\Desktop\NWEF\overtime\overtime2\backend\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000891.log 
+2024/11/14-07:04:05.700 858 Level-0 table #903: started
+2024/11/14-07:04:05.716 858 Level-0 table #903: 278607 bytes OK
+2024/11/14-07:04:05.719 858 Delete type=0 #891
+2024/11/14-07:04:05.724 858 Manual compaction at level-0 from '\x00Z\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at '\x00Z\x00\x00\x05' @ 3118396 : 1
+2024/11/14-07:04:05.725 858 Compacting 1@0 + 1@1 files
+2024/11/14-07:04:05.744 858 Generated table #904@0: 5987 keys, 126142 bytes
+2024/11/14-07:04:05.751 858 Generated table #905@0: 1074 keys, 20406 bytes
+2024/11/14-07:04:05.751 858 Compacted 1@0 + 1@1 files => 146548 bytes
+2024/11/14-07:04:05.755 858 compacted to: files[ 0 2 18 0 0 0 0 ]
+2024/11/14-07:04:05.755 858 Delete type=2 #903
+2024/11/14-07:04:05.761 858 Manual compaction at level-0 from '\x00Z\x00\x00\x05' @ 3118396 : 1 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/14-07:04:05.801 f9f4 Compacting 1@1 + 12@2 files
+2024/11/14-07:04:05.892 f9f4 Generated table #906@1: 44234 keys, 2285482 bytes
+2024/11/14-07:04:06.062 f9f4 Generated table #907@1: 47264 keys, 2208661 bytes
+2024/11/14-07:04:06.092 f9f4 Generated table #908@1: 698 keys, 2130130 bytes
+2024/11/14-07:04:06.130 f9f4 Generated table #909@1: 1965 keys, 2146640 bytes
+2024/11/14-07:04:06.192 f9f4 Generated table #910@1: 16422 keys, 2206814 bytes
+2024/11/14-07:04:06.285 f9f4 Generated table #911@1: 23119 keys, 2194439 bytes
+2024/11/14-07:04:06.322 f9f4 Generated table #912@1: 514 keys, 2116500 bytes
+2024/11/14-07:04:06.358 f9f4 Generated table #913@1: 873 keys, 2112641 bytes
+2024/11/14-07:04:06.484 f9f4 Generated table #914@1: 92020 keys, 2239698 bytes
+2024/11/14-07:04:06.635 f9f4 Generated table #915@1: 110229 keys, 2262926 bytes
+2024/11/14-07:04:06.646 f9f4 Generated table #916@1: 4162 keys, 86120 bytes
+2024/11/14-07:04:06.646 f9f4 Compacted 1@1 + 12@2 files => 21990051 bytes
+2024/11/14-07:04:06.649 f9f4 compacted to: files[ 0 1 17 0 0 0 0 ]
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #859
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #860
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #861
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #862
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #872
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #889
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #894
+2024/11/14-07:04:06.649 f9f4 Delete type=2 #895
+2024/11/14-07:04:06.650 f9f4 Delete type=2 #896
+2024/11/14-07:04:06.650 f9f4 Delete type=2 #897
+2024/11/14-07:04:06.650 f9f4 Delete type=2 #898
+2024/11/14-07:04:06.650 f9f4 Delete type=2 #899
+2024/11/14-07:04:06.650 f9f4 Delete type=2 #900
+2024/11/14-07:04:06.650 f9f4 Delete type=2 #904

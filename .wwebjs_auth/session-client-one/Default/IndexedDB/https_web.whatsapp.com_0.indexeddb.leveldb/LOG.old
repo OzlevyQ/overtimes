@@ -1,0 +1,31 @@
+2024/11/14-06:57:17.167 1dd34 Reusing MANIFEST C:\Users\ozlev\Desktop\NWEF\overtime\overtime2\backend\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/14-06:57:17.167 1dd34 Recovering log #881
+2024/11/14-06:57:17.200 1dd34 Reusing old log C:\Users\ozlev\Desktop\NWEF\overtime\overtime2\backend\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000881.log 
+2024/11/14-06:57:20.414 1cf44 Level-0 table #892: started
+2024/11/14-06:57:20.428 1cf44 Level-0 table #892: 269926 bytes OK
+2024/11/14-06:57:20.431 1cf44 Delete type=0 #881
+2024/11/14-06:57:20.437 1cf44 Manual compaction at level-0 from '\x00Y\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Z\x00\x00\x00' @ 0 : 0; will stop at '\x00Y\x00\x00\x05' @ 3107964 : 1
+2024/11/14-06:57:20.438 1cf44 Compacting 1@0 + 1@1 files
+2024/11/14-06:57:20.461 1cf44 Generated table #893@0: 6719 keys, 136633 bytes
+2024/11/14-06:57:20.469 1cf44 Generated table #894@0: 1023 keys, 19633 bytes
+2024/11/14-06:57:20.469 1cf44 Compacted 1@0 + 1@1 files => 156266 bytes
+2024/11/14-06:57:20.471 1cf44 compacted to: files[ 0 2 18 0 0 0 0 ]
+2024/11/14-06:57:20.472 1cf44 Delete type=2 #892
+2024/11/14-06:57:20.475 1cf44 Manual compaction at level-0 from '\x00Y\x00\x00\x05' @ 3107964 : 1 .. '\x00Z\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/14-06:57:20.601 1dca4 Compacting 1@1 + 6@2 files
+2024/11/14-06:57:20.756 1dca4 Generated table #895@1: 43447 keys, 2284356 bytes
+2024/11/14-06:57:20.997 1dca4 Generated table #896@1: 46964 keys, 2207998 bytes
+2024/11/14-06:57:21.045 1dca4 Generated table #897@1: 707 keys, 2127951 bytes
+2024/11/14-06:57:21.101 1dca4 Generated table #898@1: 1971 keys, 2147487 bytes
+2024/11/14-06:57:21.213 1dca4 Generated table #899@1: 16731 keys, 2207596 bytes
+2024/11/14-06:57:21.316 1dca4 Generated table #900@1: 22721 keys, 2092887 bytes
+2024/11/14-06:57:21.316 1dca4 Compacted 1@1 + 6@2 files => 13068275 bytes
+2024/11/14-06:57:21.319 1dca4 compacted to: files[ 0 1 18 0 0 0 0 ]
+2024/11/14-06:57:21.319 1dca4 Delete type=2 #852
+2024/11/14-06:57:21.319 1dca4 Delete type=2 #883
+2024/11/14-06:57:21.319 1dca4 Delete type=2 #884
+2024/11/14-06:57:21.319 1dca4 Delete type=2 #885
+2024/11/14-06:57:21.319 1dca4 Delete type=2 #886
+2024/11/14-06:57:21.320 1dca4 Delete type=2 #887
+2024/11/14-06:57:21.320 1dca4 Delete type=2 #888
+2024/11/14-06:57:21.320 1dca4 Delete type=2 #893
