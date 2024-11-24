@@ -12,17 +12,22 @@ const port = 3001;
 const groqApiKey = "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";
 const groq = new Groq({ apiKey: groqApiKey });
 
-// הגדרת תיקיית public כסטטית
 app.use(express.static(path.join(__dirname, "build")));
 
-// ניתוב כל הבקשות שאינן תואמות קבצים ל-index.html
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
 
 app.use(cors());
 app.use(express.json());
+
+// מסלול API לבדיקה אם השרת זמין
+app.get("/health-check", (req, res) => {
+  console.log("Health check requested"); // לוג בשרת
+  res.json({ status: "connected" });
+});
+
 
 // מסלול API לשליחת הודעה ב-WhatsApp
 app.post("/send-whatsapp", async (req, res) => {
