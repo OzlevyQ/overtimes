@@ -12,7 +12,14 @@ const port = 3001;
 const groqApiKey = "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";
 const groq = new Groq({ apiKey: groqApiKey });
 
-app.use(cors());
+const corsOptions = {
+  origin: "*", // אפשר לשנות לדומיין מסוים אם צריך
+  methods: ["GET", "POST", "OPTIONS"], // הגדרת שיטות מאושרות
+  allowedHeaders: ["Content-Type", "Authorization"], // כותרות מאושרות
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 
