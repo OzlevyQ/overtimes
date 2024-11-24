@@ -12,21 +12,14 @@ const port = 3001;
 const groqApiKey = "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";
 const groq = new Groq({ apiKey: groqApiKey });
 
-app.use(express.static(path.join(__dirname, "build")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
-
-
-app.use(cors());
-app.use(express.json());
-
 // מסלול API לבדיקה אם השרת זמין
 app.get("/health-check", (req, res) => {
   console.log("Health check requested"); // לוג בשרת
   res.json({ status: "connected" });
 });
+
+app.use(cors());
+app.use(express.json());
 
 
 // מסלול API לשליחת הודעה ב-WhatsApp
@@ -89,6 +82,14 @@ app.post("/generate-ai-comment", async (req, res) => {
     res.status(500).json({ error: "Failed to generate AI comment" });
   }
 });
+
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
