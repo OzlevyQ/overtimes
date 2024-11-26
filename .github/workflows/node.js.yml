@@ -14,33 +14,19 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Setup Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    - name: Initialize project if needed
-      run: |
-        if [ ! -f package.json ]; then
-          npm init -y
-        fi
-
     - name: Install dependencies
-      run: |
-        npm install dotenv express cors whatsapp-web.js qrcode-terminal path fs groq-sdk
-
-    - name: Generate lock file
-      run: |
-        if [ ! -f package-lock.json ]; then
-          npm install
-        fi
+      run: npm install # מתקין תלויות גם אם package-lock.json אינו קיים
 
     - name: Run server
       run: node server.js
